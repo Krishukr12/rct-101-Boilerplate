@@ -1,11 +1,8 @@
+import { Button, ButtonGroup, Select } from "@chakra-ui/react";
 import React from "react";
 
 const Pagination = () => {
-  // TODO: Remove below const and instead import them from chakra
-  const Button = () => <div />;
-  const ButtonGroup = () => <div />;
-  const Select = () => <div />;
-
+ 
   return (
     <ButtonGroup>
       <Button data-cy="pagination-first-button"></Button>
